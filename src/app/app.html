@@ -1,0 +1,86 @@
+
+<h1>Poc Componente Carbon with Mcp</h1>
+
+<!--
+	COMPONENTE BUTTON - SISTEMA DE DISEÑO
+	=====================================
+  
+	Este componente incluye todas las variantes, tamaños y estados definidos en Figma.
+  
+	VARIANTES DISPONIBLES:
+		- primary
+		- secondary
+		- tertiary
+		- ghost
+		- dangerPrimary
+		- dangerTertiary
+		- dangerGhost
+  
+	TAMAÑOS DISPONIBLES:
+		- Extra large
+		- 2x large
+		- Large
+		- Medium
+		- Small
+		- Expressive
+  
+	ESTADOS DISPONIBLES:
+		- Enabled
+		- Skeleton
+		- Disabled
+		- Focus
+		- Hover
+		- Active
+  
+	FORMAS DE USO:
+  
+	1. Uso básico:
+		 <cds-button variant="primary" size="medium">Texto del botón</cds-button>
+  
+	2. Con todas las variantes:
+		 <cds-button variant="secondary" size="large">Secondary Button</cds-button>
+		 <cds-button variant="tertiary" size="small">Tertiary Button</cds-button>
+		 <cds-button variant="ghost" size="medium">Ghost Button</cds-button>
+		 <cds-button variant="dangerPrimary" size="large">Danger Primary</cds-button>
+		 <cds-button variant="dangerTertiary" size="medium">Danger Tertiary</cds-button>
+		 <cds-button variant="dangerGhost" size="small">Danger Ghost</cds-button>
+  
+	3. Con diferentes tamaños:
+		 <cds-button variant="primary" size="extra-large">Extra Large</cds-button>
+		 <cds-button variant="primary" size="2x-large">2X Large</cds-button>
+		 <cds-button variant="primary" size="large">Large</cds-button>
+		 <cds-button variant="primary" size="medium">Medium</cds-button>
+		 <cds-button variant="primary" size="small">Small</cds-button>
+		 <cds-button variant="primary" size="expressive">Expressive</cds-button>
+  
+	4. Con estados especiales:
+		 <cds-button variant="primary" size="medium" disabled>Disabled Button</cds-button>
+		 <cds-button variant="primary" size="medium" state="skeleton">Loading...</cds-button>
+		 <cds-button variant="primary" size="medium" state="focus">Focused Button</cds-button>
+  
+	5. Combinaciones:
+		 <cds-button variant="secondary" size="large" disabled>Large Disabled Secondary</cds-button>
+		 <cds-button variant="dangerPrimary" size="small" state="skeleton">Small Danger Loading</cds-button>
+  
+	PROPIEDADES:
+	- variant: Define el estilo visual del botón (primary, secondary, tertiary, ghost, dangerPrimary, dangerTertiary, dangerGhost)
+	- size: Define el tamaño del botón (Extra large, 2x large, Large, Medium, Small, Expressive)
+	- state: Define el estado del botón (Enabled, Skeleton, Disabled, Focus, Hover, Active)
+	- disabled: Booleano que deshabilita el botón
+	- text: Texto que se muestra dentro del botón (opcional, también se puede usar slot)
+  
+	EVENTOS:
+	- buttonClick: Se emite cuando se hace click en el botón
+		<cds-button variant="primary" (buttonClick)="onButtonClick($event)">Click me</cds-button>
+  
+	NOTAS:
+	- Los estilos CSS ya están disponibles en el proyecto Angular
+	- El componente utiliza las clases CSS existentes del sistema de diseño
+	- Compatible con todos los frameworks (Angular, React, Vue, vanilla JS)
+-->
+
+<!-- EJEMPLO BÁSICO -->
+<cds-button variant="primary" size="medium">Botón de ejemplo</cds-button>
+
+
+
